@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/irfan36bot/EvaMaria",
-    "repository": "https://github.com/irfan36bot/EvaMaria",
+    "website": "https://github.com/EvamariaTG/EvaMaria",
+    "repository": "https://github.com/dqanshi/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -95,13 +95,17 @@
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "required": false
-          }
-    }
+        }
+    },
+    "addons": [],
+    "buildpacks": [{
+        "url": "heroku/python"
+    }],
     "stack": "heroku-20"
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "eco"
+            "size": "free"
         }
     }
 }
