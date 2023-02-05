@@ -20,34 +20,42 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
+            "value": "5590951944:AAGdPMcEYliVNaZocotOZDnd-LVCll2A96g",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "10956858",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+            "value": "cceefd3382b44d4d85be2d83201102b7",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+            "value": "-1001574159030 -1001354385299 -1001662423682 -1001775308909",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+            "value": "1125671241 1809710185",
             "required": true
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+            "value": "https://telegra.ph/file/7e56d907542396289fee4.jpg https://telegra.ph/file/9aa8dd372f4739fe02d85.jpg https://telegra.ph/file/adffc5ce502f5578e2806.jpg https://telegra.ph/file/6937b60bc2617597b92fd.jpg https://telegra.ph/file/09a7abaab340143f9c7e7.jpg https://telegra.ph/file/5a82c4a59bd04d415af1c.jpg https://telegra.ph/file/323986d3bd9c4c1b3cb26.jpg https://telegra.ph/file/b8a82dcb89fb296f92ca0.jpg https://telegra.ph/file/31adab039a85ed88e22b0.jpg https://telegra.ph/file/c0e0f4c3ed53ac8438f34.jpg https://telegra.ph/file/eede835fb3c37e07c9cee.jpg https://telegra.ph/file/e17d2d068f71a9867d554.jpg https://telegra.ph/file/8fb1ae7d995e8735a7c25.jpg https://telegra.ph/file/8fed19586b4aa019ec215.jpg https://telegra.ph/file/8e6c923abd6139083e1de.jpg https://telegra.ph/file/0049d801d29e83d68b001.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "value": "-1001643207792",
             "required": true
         },
         "SUPPORT_CHAT": {
             "description": "Username of a Support Group / ADMIN. ( Should be username without @ and not ID)",
+            "value": "DSSupportGroup",
             "required": false
         },
         "AUTH_USERS": {
@@ -56,10 +64,12 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
+            "value": "-1001606331367",
             "required": false
         },   
         "USE_CAPTION_FILTER": {
             "description": "Whether bot should use captions to improve search results. (True False)",
+            "value": "300",
             "required": false
         },
         "CUSTOM_FILE_CAPTION": {
@@ -68,10 +78,12 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "mongodb+srv://Irfan:786or786@cluster0.2jjhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
+            "value": "Cluster0",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -105,7 +117,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
