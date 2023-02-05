@@ -97,7 +97,7 @@
             "required": false
           }
       }
-    ],
+    ]
     "stack": "heroku-20"
     "formation": {
         "worker": {
