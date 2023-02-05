@@ -95,7 +95,7 @@
         "P_TTI_SHOW_OFF": {
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "required": false
-        }
+          }
       }
     ],
     "stack": "heroku-20"
