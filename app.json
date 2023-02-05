@@ -96,11 +96,7 @@
             "description": "Customize Result Buttons to Callback or Url by (True = url / False = callback)",
             "required": false
         }
-    },
-    "addons": [],
-    "buildpacks": [{
-        "url": "heroku/python"
-    }],
+    }]
     "stack": "heroku-20"
     "formation": {
         "worker": {
