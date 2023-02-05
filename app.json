@@ -16,7 +16,7 @@
       "inline"
     ],
     "website": "https://github.com/irfan36bot/EvaMaria",
-    "repository": "https://github.com/dqanshi/EvaMaria",
+    "repository": "https://github.com/irfan36bot/EvaMaria",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
